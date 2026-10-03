@@ -73,4 +73,3 @@ exports.getSellersAndBuyers = async (req, res) => {
   }
 };
 
-
