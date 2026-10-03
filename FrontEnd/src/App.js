@@ -23,7 +23,7 @@ function App() {
 
   // Load cart from localStorage when the app loads
   useEffect(() => {
-    const savedCartItems = JSON.parse(localStorage.getItem("cartItems"));
+    const savedCartItems = JSON.parse(localStorage.getItem("cartItems")); 
     if (savedCartItems) {
       setCartItems(savedCartItems);
     }
@@ -97,6 +97,7 @@ function App() {
 
   return (
     <>
+    
       <BrowserRouter>
         <Routes>
           <Route
